@@ -7,4 +7,4 @@ string Number_Two = Console.ReadLine() ?? "n/a";
 int Number_One_Convert = Convert.ToInt32(Number_One);
 int Number_Two_Convert = Convert.ToInt32(Number_Two);
 
-Console.WriteLine("SUM: " + (Number_One_Convert + Number_Two_Convert));
+Console.WriteLine("The Sum of " + Number_One_Convert + " and " + Number_Two_Convert + " is" + "\nResult: " + (Number_One_Convert + Number_Two_Convert));
