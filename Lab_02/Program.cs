@@ -1,22 +1,13 @@
 ﻿
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        Console.WriteLine("Hello");
-        Console.WriteLine("Enter first number to be added: ");
-        string Number_One = Console.ReadLine() ?? "n/a";
-        Console.WriteLine("Enter second number to be added: ");
-        string Number_Two = Console.ReadLine() ?? "n/a";
-
-        int Number_One_Convert = Convert.ToInt32(Number_One);
-        int Number_Two_Convert = Convert.ToInt32(Number_Two);
-
-        Console.WriteLine("The Sum of " + Number_One_Convert + " and " + Number_Two_Convert + " is" + "\nResult: " + (Number_One_Convert + Number_Two_Convert));
-
-        Console.WriteLine("Multiply your numbers!");
-
-
-    }
-}
+//archaic UI
+Console.WriteLine("Hello");
+Console.WriteLine("Enter first number to be added: ");
+string Number_One = Console.ReadLine() ?? "n/a";
+Console.WriteLine("Enter second number to be added: ");
+string Number_Two = Console.ReadLine() ?? "n/a";
+//conversion from string to int32
+int Number_One_Convert = Convert.ToInt32(Number_One);
+int Number_Two_Convert = Convert.ToInt32(Number_Two);
+//output to user
+Console.WriteLine("The Sum of " + Number_One_Convert + " and " + Number_Two_Convert + " is" + "\nResult: " + (Number_One_Convert + Number_Two_Convert));
  
