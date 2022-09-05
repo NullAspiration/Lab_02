@@ -28,7 +28,15 @@ internal class Program
         Console.WriteLine("The product of " + Mult_Number_One_Convert + " and " + Mult_Number_Two_Convert + " is" + "\nResult: " + (Mult_Number_One_Convert * Mult_Number_Two_Convert));
 
         //modulo
-
+        Console.WriteLine("Enter firt number to be modulated: ");
+        string Modulo_Number_One = Console.ReadLine() ?? "n/a";
+        Console.WriteLine("Enter second number to be modulated: ");
+        string Modulo_Number_Two = Console.ReadLine() ?? "n/a";
+        //conversions to int32 from string
+        int Modulo_Number_One_Convert = Convert.ToInt32(Modulo_Number_One);
+        int Modulo_Number_2_Convert = Convert.ToInt32(Modulo_Number_Two);
+        // modulo and display output to user
+        Console.WriteLine("The remainder of " + Modulo_Number_One_Convert + " and " + Modulo_Number_2_Convert + " is" + "\nResult: " + (Mult_Number_One_Convert % Mult_Number_Two_Convert));
     }
 }
  
