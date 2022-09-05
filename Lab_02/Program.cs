@@ -15,6 +15,7 @@ internal class Program
         int Number_Two_Convert = Convert.ToInt32(Number_Two);
         //output to user
         Console.WriteLine("The Sum of " + Number_One_Convert + " and " + Number_Two_Convert + " is" + "\nResult: " + (Number_One_Convert + Number_Two_Convert));
+        
         //muliplication
         Console.WriteLine("Enter first number to be multiplied: ");
         string Mult_Number_One = Console.ReadLine() ?? "n/a";
