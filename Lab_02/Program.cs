@@ -23,7 +23,7 @@ internal class Program
         //conversions to int32 from string
         int Mult_Number_One_Convert = Convert.ToInt32(Mult_Number_One);
         int Mult_Number_Two_Convert = Convert.ToInt32(Mult_Number_Two);
-        // multiply and dispaly output to user
+        // multiply and display output to user
         Console.WriteLine("The product of " + Mult_Number_One_Convert + " and " + Mult_Number_Two_Convert + " is" + "\nResult: " + (Mult_Number_One_Convert * Mult_Number_Two_Convert));
 
 
