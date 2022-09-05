@@ -4,7 +4,6 @@ internal class Program
     private static void Main(string[] args)
     {
         //archaic UI
-        Console.WriteLine("Hello");
         Console.WriteLine("Enter first number to be multiplied: ");
         string Mult_Number_One = Console.ReadLine() ?? "n/a";
         Console.WriteLine("Enter second number to be multiplied: ");
