@@ -1,6 +1,5 @@
 ﻿
 //archaic UI
-Console.WriteLine("Hello");
 Console.WriteLine("Enter first number to be added: ");
 string Number_One = Console.ReadLine() ?? "n/a";
 Console.WriteLine("Enter second number to be added: ");
