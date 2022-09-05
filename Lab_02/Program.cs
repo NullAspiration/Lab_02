@@ -1,4 +1,3 @@
-﻿
 internal class Program
 {
     private static void Main(string[] args)
@@ -26,7 +25,7 @@ internal class Program
         int Mult_Number_Two_Convert = Convert.ToInt32(Mult_Number_Two);
         // multiply and display output to user
         Console.WriteLine("The product of " + Mult_Number_One_Convert + " and " + Mult_Number_Two_Convert + " is" + "\nResult: " + (Mult_Number_One_Convert * Mult_Number_Two_Convert));
-
+        
         //modulo
         Console.WriteLine("Enter firt number to be modulated: ");
         string Modulo_Number_One = Console.ReadLine() ?? "n/a";
