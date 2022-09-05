@@ -27,7 +27,6 @@ internal class Program
         // multiply and display output to user
         Console.WriteLine("The product of " + Mult_Number_One_Convert + " and " + Mult_Number_Two_Convert + " is" + "\nResult: " + (Mult_Number_One_Convert * Mult_Number_Two_Convert));
 
-
     }
 }
 
